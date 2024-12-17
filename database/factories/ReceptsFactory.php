@@ -20,7 +20,7 @@ class ReceptsFactory extends Factory
     {
         return [
             'name'=>fake()->name(),
-            'img_route',
+            'category_id'=>rand(1,6),
             'description'=>fake()->text()
         ];
     }
